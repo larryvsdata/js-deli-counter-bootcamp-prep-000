@@ -1,11 +1,11 @@
 
 
 var katzDeliLine=[]
-var numberInLine=0;
+
 var ticketNumber=0;
 
 function takeANumber2(katzDeliLine){
-  numberInLine++;
+  
   ticketNumber++;
   katzDeliLine.push(ticketNumber);
   
