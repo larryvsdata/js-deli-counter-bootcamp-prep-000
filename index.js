@@ -9,7 +9,7 @@ function takeANumber2(katzDeliLine){
   ticketNumber++;
   katzDeliLine.push(numberInLine);
   
-  console.log("Welcome "+". You are number "+ticketNumber+" and you are number"  + numberInLine +" in line.");
+  console.log("Welcome "+". You are number "+ticketNumber+" and you are number "  + numberInLine +" in line.");
 }
 
 
@@ -59,5 +59,6 @@ takeANumber2(katzDeliLine)
 nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 takeANumber2(katzDeliLine)
+nowServing(katzDeliLine)
 
 
