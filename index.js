@@ -7,7 +7,7 @@ function takeANumber2(katzDeliLine){
   number++;
   katzDeliLine.push(number);
   
-  console.log("Welcome, "+". You are number "+number  +" in line.");
+  console.log("Welcome, your number is "+". You are number "+number  +" in line.");
 }
 
 
@@ -27,6 +27,7 @@ function nowServing(katzDeliLine){
   } else
   {
     console.log("Currently serving customer number "+katzDeliLine.shift()+".");
+    number--;
   }
   
 }
