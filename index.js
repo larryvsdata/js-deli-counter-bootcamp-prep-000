@@ -40,4 +40,8 @@ function currentLine(katzDeliLine){
   
 }
 
+takeANumber(katzDeliLine, "John")
+
+console.log(katzDeliLine)
+
 
