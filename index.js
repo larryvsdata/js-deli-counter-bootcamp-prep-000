@@ -29,7 +29,7 @@ function nowServing(katzDeliLine){
   } else
   {
     console.log("Currently serving customer number "+katzDeliLine.shift()+".");
-    numberInLine--;
+    
   }
   
 }
