@@ -7,7 +7,7 @@ function takeANumber2(katzDeliLine){
   number++;
   katzDeliLine.push(number);
   
-  console.log("Welcome, your number is "+". You are number "+number  +" in line.");
+  console.log("Welcome "+". You are number "+number  +" in line.");
 }
 
 
