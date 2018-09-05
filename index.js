@@ -1,13 +1,15 @@
 
 
 var katzDeliLine=[]
-var number=0;
+var numberInLine=0;
+var ticketNumber=0;
 
 function takeANumber2(katzDeliLine){
-  number++;
+  numberInLine++;
+  ticketNumber++;
   katzDeliLine.push(number);
   
-  console.log("Welcome "+". You are number "+number  +" in line.");
+  console.log("Welcome "+". You are number "+ticketNumber+" and you are number"  + numberInLine +" in line.");
 }
 
 
@@ -27,7 +29,7 @@ function nowServing(katzDeliLine){
   } else
   {
     console.log("Currently serving customer number "+katzDeliLine.shift()+".");
-    number--;
+    numberInLine--;
   }
   
 }
