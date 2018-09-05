@@ -52,5 +52,6 @@ function currentLine(katzDeliLine){
 
 takeANumber2(katzDeliLine)
 takeANumber2(katzDeliLine)
+nowServing(katzDeliLine)
 
 
