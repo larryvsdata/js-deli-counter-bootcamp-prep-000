@@ -50,6 +50,6 @@ function currentLine(katzDeliLine){
   
 }
 
-takeANumber(katzDeliLine)
+takeANumber2(katzDeliLine)
 
 
